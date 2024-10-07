@@ -1,10 +1,21 @@
 
 header {
-    font-size: 25px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #FFFFFF;
     background-color: darkslategray;
-    padding: 12px;
+    font-style: normal;
+}
+header li{
+    display: inline;
+    padding: none;
+    background-color: aliceblue;
+    text-align: left;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
 }
 
 h1 {
@@ -14,6 +25,21 @@ h2 {
     font-size: large;
     font-family:Arial, Helvetica, sans-serif;
 }
+h3{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+} 
+
+.articles article{
+    width: 30%;
+}
+
 footer {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: smaller;
